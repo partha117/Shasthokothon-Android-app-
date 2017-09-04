@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_medicine3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rongchut.shuvo.shasthokothon.Starting.Medicine.MedicineActivity3">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+        android:text="দুপুরঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMT"
+        android:layout_alignLeft="@+id/textViewMT"
+        android:layout_alignStart="@+id/textViewMT"
+        android:layout_marginTop="58dp"
+        android:id="@+id/textViewNT"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textViewNT"
+        android:layout_alignLeft="@+id/editTextMorning"
+        android:layout_alignStart="@+id/editTextMorning"
+        android:id="@+id/editTextNoon"
+        android:hint="নোটিফিকেশন এর সময়" />
+
+    <TextView
+        android:text="রাতঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:id="@+id/textViewNIT"
+        android:layout_below="@+id/textViewNT"
+        android:layout_alignLeft="@+id/textViewNT"
+        android:layout_alignStart="@+id/textViewNT"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textViewNIT"
+        android:layout_alignLeft="@+id/editTextNoon"
+        android:layout_alignStart="@+id/editTextNoon"
+        android:id="@+id/editTextNight"
+        android:hint="নোটিফিকেশন এর সময়" />
+
+    <TextView
+        android:text="শুরুঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNIT"
+        android:layout_alignLeft="@+id/textViewNIT"
+        android:layout_alignStart="@+id/textViewNIT"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textViewSD"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_alignBottom="@+id/textViewSD"
+        android:layout_alignLeft="@+id/editTextNight"
+        android:layout_alignStart="@+id/editTextNight"
+        android:id="@+id/editTextStart"
+        android:hint="নোটিফিকেশন শুরুর তারিখ" />
+
+    <TextView
+        android:text="শেষঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSD"
+        android:layout_alignLeft="@+id/textViewSD"
+        android:layout_alignStart="@+id/textViewSD"
+        android:layout_marginTop="55dp"
+        android:id="@+id/textViewED"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:id="@+id/editTextMorning"
+        android:hint="নোটিফিকেশন এর সময়"
+        android:layout_alignBottom="@+id/textViewMT"
+        android:layout_toRightOf="@+id/textViewMT"
+        android:layout_toEndOf="@+id/textViewMT" />
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextEnd"
+        android:hint="নোটিফিকেশন শেষের তারিখ"
+        android:layout_alignBottom="@+id/textViewED"
+        android:layout_alignLeft="@+id/editTextStart"
+        android:layout_alignStart="@+id/editTextStart" />
+
+        <CheckBox
+            android:text="নোটিফিকেশন এর সময় শব্দ হবে"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/textViewED"
+            android:layout_toLeftOf="@+id/button4"
+            android:layout_toStartOf="@+id/button4"
+            android:layout_marginTop="74dp" />
+
+        <Button
+        android:text="ঠিক আছে ,শেষ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+            android:layout_below="@+id/checkBox"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="102dp" />
+
+        <TextView
+            android:text="সকালঃ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="41dp"
+            android:id="@+id/textViewMT"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

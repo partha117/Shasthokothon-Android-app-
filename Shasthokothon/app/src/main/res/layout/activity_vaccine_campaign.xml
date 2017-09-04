@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_vaccine_campaign"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rongchut.shuvo.shasthokothon.Starting.Campaign.VaccineTime.VaccineCampaignActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:text="টিকার নামঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/textView33"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView33"
+        android:layout_toRightOf="@+id/textView33"
+        android:layout_toEndOf="@+id/textView33"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:id="@+id/textView43"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:text="বয়সসীমাঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView33"
+        android:layout_toLeftOf="@+id/textView43"
+        android:layout_toStartOf="@+id/textView43"
+        android:layout_marginTop="43dp"
+        android:id="@+id/textView45"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView45"
+        android:layout_alignLeft="@+id/textView43"
+        android:layout_alignStart="@+id/textView43"
+        android:id="@+id/textView46"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="টিকাদান শুরু হবেঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView45"
+        android:layout_alignRight="@+id/textView45"
+        android:layout_alignEnd="@+id/textView45"
+        android:layout_marginTop="53dp"
+        android:id="@+id/textView47"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="টিকাদান \nশেষ হবেঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/textView49"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView49"
+        android:layout_alignLeft="@+id/textView48"
+        android:layout_alignStart="@+id/textView48"
+        android:id="@+id/textView50"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView49"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="79dp"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView44"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView48"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignBottom="@+id/textView47"
+        android:layout_alignLeft="@+id/textView46"
+        android:layout_alignStart="@+id/textView46" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

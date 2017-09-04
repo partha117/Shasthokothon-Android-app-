@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_medicine__item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.rongchut.shuvo.shasthokothon.Starting.Medicine.Medicine_ItemActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:id="@+id/textView18"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="পরিমানঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="46dp"
+        android:id="@+id/textView19"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="false" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView19"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:id="@+id/textView20"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView21"
+        android:layout_alignRight="@+id/textView20"
+        android:layout_alignEnd="@+id/textView20"
+        android:id="@+id/textView22"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="সময়(সকালে)ঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:layout_marginTop="27dp"
+        android:id="@+id/textView25"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView25"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:id="@+id/textView26"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="সময়(দুপুরে)ঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView25"
+        android:layout_alignLeft="@+id/textView25"
+        android:layout_alignStart="@+id/textView25"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView27"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="সময়(রাতে)ঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView32"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="সময়(রাতে)ঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView31"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView27"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26"
+        android:id="@+id/textView28"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="সময়(রাতে)ঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_alignLeft="@+id/textView27"
+        android:layout_alignStart="@+id/textView27"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView29"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView29"
+        android:layout_alignLeft="@+id/textView28"
+        android:layout_alignStart="@+id/textView28"
+        android:id="@+id/textView30"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:text="ঔষধের নামঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="48dp"
+        android:id="@+id/textView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="শেষ হবেঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView23"
+        android:layout_below="@+id/textView21"
+        android:layout_alignRight="@+id/textView21"
+        android:layout_alignEnd="@+id/textView21"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="শুরু হবেঃ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView21"
+        android:layout_below="@+id/textView19"
+        android:layout_alignLeft="@+id/textView19"
+        android:layout_alignStart="@+id/textView19"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView24"
+        android:layout_alignTop="@+id/textView23"
+        android:layout_alignLeft="@+id/textView22"
+        android:layout_alignStart="@+id/textView22"
+        android:textSize="20dp"
+        android:textColor="@color/black" />
+
+        <TextView
+            android:text="নোটিফিকেশনঃ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34"
+            android:layout_below="@+id/textView32"
+            android:layout_alignLeft="@+id/textView32"
+            android:layout_alignStart="@+id/textView32"
+            android:layout_marginTop="41dp"
+            android:textSize="20dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="186dp"
+            android:layout_marginStart="186dp"
+            android:id="@+id/textView35"
+            android:layout_alignTop="@+id/textView34"
+            android:layout_alignBottom="@+id/textView34"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:text="নিঃশব্দে হবে " />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView35"
+           >
+        <CheckBox
+            android:text="নোটিফিকেশন \nএর সময় শব্দ হবে"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/textView34"
+            android:layout_alignLeft="@+id/textView34"
+            android:layout_alignStart="@+id/textView34"
+            android:layout_marginTop="52dp" />
+
+            <Button
+                android:text="ঠিক আছে"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/button5"
+                android:layout_below="@id/checkBox2"/>
+
+
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

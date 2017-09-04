@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "764634340316",
+    "firebase_url": "https://shasthokothon-9f1db.firebaseio.com",
+    "project_id": "shasthokothon-9f1db",
+    "storage_bucket": "shasthokothon-9f1db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764634340316:android:c5a2a5837169c8ca",
+        "android_client_info": {
+          "package_name": "com.rongchut.shuvo.shasthokothon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764634340316-i8gt565vhmn4stkujbp7uh18o7gvg915.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rongchut.shuvo.shasthokothon",
+            "certificate_hash": "A5E922DEE95CFD985FFD22F361190F1ACB91ADDD"
+          }
+        },
+        {
+          "client_id": "764634340316-l1b70h0jdg4gh814lcrgu95f34edjpqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBrnsskIQlo5xyS-UTXT-Jf96aGfZ7z5A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764634340316-l1b70h0jdg4gh814lcrgu95f34edjpqp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

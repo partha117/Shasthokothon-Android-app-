@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Starting.FirstAid.FirstAidActivity">
+
+    <item
+        android:id="@+id/homeButton"
+        android:orderInCategory="200"
+        android:title="মেনুতে.."
+        android:icon="@mipmap/home_icon"
+        app:showAsAction="ifRoom"
+
+        ></item>
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="200"
+        android:title="সাহায্য"
+        android:icon="@mipmap/ic_help"
+        app:showAsAction="ifRoom"
+
+        ></item>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:title="স্বাস্থককথন সম্পর্কে"
+        android:icon="@mipmap/ic_about"
+        app:showAsAction="ifRoom"
+
+        ></item>
+
+</menu>

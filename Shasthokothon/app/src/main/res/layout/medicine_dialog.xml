@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fileAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="59dp" />
+
+        <TextView
+            android:text="আপনি ইচ্ছা করলে নোটিফিকেশনের জন্য রেকর্ড করতে পারেন"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:textSize="20dp"
+            android:layout_marginTop="57dp"
+            android:layout_below="@+id/fileAddress"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="রেকর্ডিং শুরু করুন"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/record"
+            android:textSize="18dp"
+            android:layout_marginBottom="56dp"
+
+            android:layout_below="@id/textView11"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="183dp"
+            android:id="@+id/state" />
+
+        <Button
+            android:text="না, ঠিক আছে"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"
+            android:textSize="18dp"
+            android:layout_marginTop="70dp"
+            android:layout_alignTop="@+id/state"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
