@@ -19,9 +19,7 @@ The app features 13 common first aid solutions with do and dont's.The first Aid 
 In this feature we have 3 common health related tests.
 - Autism Test: In this feature we have a questionnaire.By answering this questionnaire(yes/no) user can find his/her child is autistic or not(Disclaimer:The test never say  anyone is autistic rather than if the result is positive it says the child may have autism problem and it will be good if you contact your doctor).The app does not store or share test related data.
 - BMI Test:BMI(Body Mass Index) test is test by which one can know is his/her weight is normal according to his/her height.The features uses body mass formula.
-<p align="center">
 <img src="App_images/color_blindness.png" class="img-responsive" width="150" height="267" >
-</p>
 - Color Blindness Test: The app uses ishihara test to determine color blindness.In this feature user will find 15 slides with something writtenand user will be asked to unput what he finds in the slides.Based on the user reply color blindness detected.
 ### Vaccine Reminder
 In this feature user will provide birthday of his/her child.Based on this information the app will notify when to vaccinate his/her child(The app never share this information)
