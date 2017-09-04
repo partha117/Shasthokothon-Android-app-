@@ -6,19 +6,9 @@
 Shasthokothon  is an android application.Basically it is health related.The design goal was creating app that can provide information and that can be a companion of our busy life.Roughly the features of the app can be divided into two catagories informative and service.Obviously the  i use  java for app design and Firebase for cloud storage. The front end is designed in Bengali language.
 
 ## Features of Shasthokothon
-<p align="center">
-<img src="App_images/Main_Window.png" class="img-responsive" width="150" height="267" >
-</p>
-
-<h2>First Aid</h2>
-<p align="center">
-<img src="App_images/First_aid.png" class="img-responsive" width="150" height="267" >
-</p>
+### First Aid
 The app features 13 common first aid solutions with do and dont's.The first Aid solutions are explained in easier way so that common people can follow the instructions.
-<p align="center">
-<img src="App_images/color_blindness.png" class="img-responsive" width="150" height="267" >
-</p>
-<h2>Common Tests</h2>
+### Common Tests 
 In this feature we have 3 common health related tests.
 - Autism Test: In this feature we have a questionnaire.By answering this questionnaire(yes/no) user can find his/her child is autistic or not(Disclaimer:The test never say  anyone is autistic rather than if the result is positive it says the child may have autism problem and it will be good if you contact your doctor).The app does not store or share test related data.
 - BMI Test:BMI(Body Mass Index) test is test by which one can know is his/her weight is normal according to his/her height.The features uses body mass formula.
@@ -27,13 +17,7 @@ In this feature we have 3 common health related tests.
 In this feature user will provide birthday of his/her child.Based on this information the app will notify when to vaccinate his/her child(The app never share this information)
 ### Emergency Contact
 This feature has 2 sub features.
-<p align="center">
-<img src="App_images/Map.png" class="img-responsive" width="150" height="267" >
-</p>
 - Hospital's Position in Map:Bades on user's current position the app will show nearby hospitals in google mapwith address.This feature requires GPS and internet.
-<p align="center">
-<img src="App_images/emergency_Contact.png" class="img-responsive" width="150" height="267" >
-</p>
 - Emergency Contact List:In this feature user will find Hsopital,Blood Bank,Ambulance's contact information .User has to select division(8 Divisions of Bangladesh) and he/she will find information of thar division.
 ### Medicine Reminder
 By using this feature user will get notification when he/she has to take medicine.To use this feature first he/she has to provide information about quantity ,time and duration of medication.After that he/she will recieve notification with quantity through the whole duration.
