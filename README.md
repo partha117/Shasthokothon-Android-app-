@@ -3,7 +3,7 @@
 <p align="center">
 <img src="App_images/Logo1.png" class="img-responsive" width="150" height="150" >
 </p>
-Shasthokothon  is an android application.Basically it is health related.The design goal was creating app that can provide information and that can be a companion of our busy life.Roughly the features of the app can be divided into two catagories informative and service.Obviously the  i use  java for app design and Firebase for cloud storage. The front end is designed in Bengali language.
+Shasthokothon  is an android application.Basically it is health related.The design goal was creating app that can provide information and that can be a companion of our busy life.Roughly the features of the app can be divided into two catagories informative and service.Java has been used for app design and Firebase for cloud storage. The front end is designed in Bengali language.
 
 ## Features of Shasthokothon
 ### First Aid
