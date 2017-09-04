@@ -1,12 +1,23 @@
-## Welcome to GitHub Pages
+# Shasthokothon(স্বাস্থ্যকথন)
+<p align="center">
+  <img width="150" height="150" src="https://github.com/partha117/Shasthokothon-Android-app-/blob/master/App_images/Logo1.png">
+</p>
 
-You can use the [editor on GitHub](https://github.com/partha117/Shasthokothon-Android-app-/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Shasthokothon  is an android application.Basically it is health related.The design goal was creating app that can provide information and that can be a companion of our busy life.Roughly the features of the app can be divided into two catagories informative and service. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Features of Shasthokothon
 
-### Markdown
+### First Aid
+<p align="center">
+  <img width="150" height="267" src="https://github.com/partha117/Shasthokothon-Android-app-/blob/master/App_images/First_aid.png">
+</p>
+The app features 13 common first aid solutions with do and dont's.The first Aid solutions are explained in easier way so that common people can follow the instructions.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Common Tests
+In this feature we have 3 common health related tests.
+- Autism Test: In this feature we have a questionnaire.By answering this questionnaire(yes/no) user can find his/her child is autistic or not(Disclaimer:The test never say  anyone is autistic rather than if the result is positive it says the child may have autism problem and it will be good if you contact your doctor).The app does not store or share test related data.
+- BMI Test:BMI(Body Mass Index) test is test by which one can know is his/her weight is normal according to his/her height.The features uses body mass formula.
+- Color Blindness Test: The app uses ishihara test to determine color blindness.In this feature user will find 15 slides with something writtenand user will be asked to unput what he finds in the slides.Based on the user reply color blindness detected.
 
 ```markdown
 Syntax highlighted code block
