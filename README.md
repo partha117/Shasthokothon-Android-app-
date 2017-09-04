@@ -3,7 +3,7 @@
   <img width="150" height="150" src="https://github.com/partha117/Shasthokothon-Android-app-/blob/master/App_images/Logo1.png">
 </p>
 
-Shasthokothon  is an android application.Basically it is health related.The design goal was creating app that can provide information and that can be a companion of our busy life.Roughly the features of the app can be divided into two catagories informative and service. 
+Shasthokothon  is an android application.Basically it is health related.The design goal was creating app that can provide information and that can be a companion of our busy life.Roughly the features of the app can be divided into two catagories informative and service.Obviously the  i use  java for app design and Firebase for cloud storage. The front end is designed in Bengali language.
 
 ## Features of Shasthokothon
 
@@ -26,7 +26,13 @@ This feature has 2 sub features.
 - Emergency Contact List:In this feature user will find Hsopital,Blood Bank,Ambulance's contact information .User has to select division(8 Divisions of Bangladesh) and he/she will find information of thar division.
 ### Medicine Reminder
 By using this feature user will get notification when he/she has to take medicine.To use this feature first he/she has to provide information about quantity ,time and duration of medication.After that he/she will recieve notification with quantity through the whole duration.
+### Drug Reaction
+This feature has 2 sub feature
+- Medication result:In this feature user can anonymously provide feedback about a medicine wheather the medicine works in proper way or he suffered from any type of reaction.The feedback will be stored in cloud.
+-FeedBack: In this feature user can search about reaction of a specific medicine .If cloud storage has any information abot that medicine  it will be shown in a graph form.
 
+
+The app was designed for EATL Prothom-Alo App Contest 2016 and it was one of the top 10 apps among 500 cool apps.
 ```markdown
 Syntax highlighted code block
 
