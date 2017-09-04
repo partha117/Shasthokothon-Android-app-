@@ -24,9 +24,6 @@ By using this feature user will get notification when he/she has to take medicin
 ### Drug Reaction
 This feature has 2 sub feature
 - Medication result:In this feature user can anonymously provide feedback about a medicine wheather the medicine works in proper way or he suffered from any type of reaction.The feedback will be stored in cloud.
-<p align="center">
-<img src="App_images/Graph.png" class="img-responsive" width="150" height="267" >
-</p>
 -FeedBack: In this feature user can search about reaction of a specific medicine .If cloud storage has any information abot that medicine  it will be shown in a graph form.
 
 
